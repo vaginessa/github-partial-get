@@ -10,13 +10,18 @@ then - paste it as an argument to <code>github_partial_get</code>:
 github_partial_get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
 </pre>
 
-or if you're prefer, just run <code>github_partial_get</code>, and it will ask you for the URL<br/>
+or just run <code>github_partial_get</code>, and it will ask you for the URL<br/>
 (interactive mode).
 
+<br/>
+You'll see something like this:
+<img src="bin/screenshot2.png" /><br/>
+<img src="bin/screenshot3.png" /><br/>
+<img src="bin/screenshot4.png" /><br/>
 <hr/>
 
-If you'll add this tool to your PATH,<br/>
-you can run the <code>github_partial_get</code> to download to any folder (instead into the toolkit's-folder).
+You may also add this tool to your PATH,<br/>
+to run and download from any folder.
 
 <hr/>
 
