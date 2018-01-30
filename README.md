@@ -2,6 +2,16 @@
 
 This is essentially a batch-file and SVN-binaries.
 
+Run:
+<pre>
+get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
+</pre>
+
+If you'll add this tool to your PATH,<br/>
+you can run the <code>get.cmd</code> from any folder.
+
+<hr/>
+
 If you already have SVN installed on your machine you can simply follow this walkthrough:
 1. browse through a repository, to a folder you wish to download and copy the page's URL.
 2. replace add <code>.git</code> to the repository name.
@@ -10,9 +20,11 @@ If you already have SVN installed on your machine you can simply follow this wal
 5. open, on your desktop or any folder on your machine and run <code>svn export THE_URL</code>.
 6. the folder will be download locally.
 
+<pre>
 for example: <code>https://github.com/googlei18n/noto-emoji/tree/master/fonts</code>,<br/>
 will became <code>https://github.com/googlei18n/noto-emoji.git/trunk/fonts</code>,<br/>
 and <code>svn export "https://github.com/googlei18n/noto-emoji.git/trunk/fonts"</code>.
+</pre>
 
 <hr/>
 
