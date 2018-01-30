@@ -3,7 +3,7 @@
 This is essentially a batch-file and some SVN-binaries.
 
 For example, to download <strong>just the <code>fonts</code> folder</strong>, from <code>https://github.com/googlei18n/noto-emoji/</code> repository,<br/>
-Browse the <code>fonts</code> folder and copy the URL,<br/>
+browse the <code>fonts</code> folder and copy the URL,<br/>
 <img src="bin/screenshot1.png" /><br/>
 then - paste it as an argument to <code>github_partial_get</code>:
 <pre>
