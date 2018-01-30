@@ -2,14 +2,16 @@
 
 This is essentially a batch-file and some SVN-binaries.
 
-For example, downloading just the <code>fonts</code> folder of the <code>https://github.com/googlei18n/noto-emoji/</code> repository,<br/>
+For example, to download <strong>just the <code>fonts</code> folder</strong>, from <code>https://github.com/googlei18n/noto-emoji/</code> repository,<br/>
+Browse the <code>fonts</code> folder and copy the URL,<br/>
 <img src="bin/screenshot1.png" /><br/>
-And paste it to <code>github_partial_get</code>.
+then - paste it as an argument to <code>github_partial_get</code>:
 <pre>
 github_partial_get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
 </pre>
 
-(or if you're prefer, just run <code>github_partial_get</code>, and it will ask you for the URL)
+or if you're prefer, just run <code>github_partial_get</code>, and it will ask you for the URL<br/>
+(interactive mode).
 
 <hr/>
 
