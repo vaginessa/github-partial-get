@@ -2,10 +2,16 @@
 
 This is essentially a batch-file and some SVN-binaries.
 
-For example, downloading just the <code>fonts</code> folder of the <code>https://github.com/googlei18n/noto-emoji/</code> repository:
+For example, downloading just the <code>fonts</code> folder of the <code>https://github.com/googlei18n/noto-emoji/</code> repository,<br/>
+<img src="bin/screenshot1.png" /><br/>
+And paste it to <code>github_partial_get</code>.
 <pre>
 github_partial_get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
 </pre>
+
+(or if you're prefer, just run <code>github_partial_get</code>, and it will ask you for the URL)
+
+<hr/>
 
 If you'll add this tool to your PATH,<br/>
 you can run the <code>github_partial_get</code> to download to any folder (instead into the toolkit's-folder).
