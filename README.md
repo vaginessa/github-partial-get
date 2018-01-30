@@ -1,14 +1,14 @@
 <h1><a href="https://paypal.me/e1adkarak0" ok><img src="bin/icon.png" alt="PayPal Donation" ok></a> Partial-Download A GitHub-Repository <em>(By Folder)</em> - &nbsp; &nbsp; <a href="https://paypal.me/e1adkarak0" ok><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Donation" ok></a></h1>
 
-This is essentially a batch-file and SVN-binaries.
+This is essentially a batch-file and some SVN-binaries.
 
-Run:
+For example, downloading just the <code>fonts</code> folder of the <code>https://github.com/googlei18n/noto-emoji/</code> repository:
 <pre>
-get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
+github_partial_get "https://github.com/googlei18n/noto-emoji/tree/master/fonts"
 </pre>
 
 If you'll add this tool to your PATH,<br/>
-you can run the <code>get.cmd</code> from any folder.
+you can run the <code>github_partial_get</code> to download to any folder (instead into the toolkit's-folder).
 
 <hr/>
 
